@@ -21,16 +21,20 @@ export const metadata: Metadata = {
   title: "CIEM College Financial Crisis - Addressing the Issue of Corruption",
   description: "CIEM College is facing a financial crisis due to corrupt actions by some members of the college society. This platform aims to raise awareness and gather support to resolve the situation.",
   keywords: "CIEM College, financial crisis, college corruption, student awareness, education reform, support CIEM",
-  author: "CIEM Student ",
+  authors: [
+    {
+      name: "CIEM Student Union",  // Author's name
+    }
+  ],
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
-  og: {
+/*   og: {
     title: "CIEM College Financial Crisis - Stand Against Corruption",
     description: "Join the movement to help CIEM College overcome its financial crisis caused by corruption. Learn how you can contribute to the cause.",
     image: "/images/proof_image4.jpg", // Add a relevant image
     url: "https://www.yoursite.com", // Replace with the website's URL
     type: "website",
-  },
+  }, */
 };
 
 export default function RootLayout({
